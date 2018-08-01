@@ -12,5 +12,5 @@
 |10    |IN/OUT|#SOE |Pulling down this pin through 4.7K enables UART diagnostic output during boot. During normal operation this pin is an output; low level indicates that UART is active. Driven from Vcco.|
 |11    |-     |NC   |Do not connect this pin.                                                                           |
 |12    |IN    |RX   |UART RX input.                                                                                     |
-|13    |IN/OUT|BOOT |If driven low at startup, the module is switched to the programming mode. If configured in software, driving this pin low for 5 seconds when the module is running causes settings reset. When configured as output, logic 0 voltage is Vcco/2; output resistance >2 kOhm.|
+|13    |IN/OUT|BOOT |If driven low at startup, the module is switched to the programming mode. If configured in software, driving this pin low for 10 seconds when the module is running causes settings reset. When configured as output, logic 0 voltage is Vcco/2; output resistance >2 kOhm.|
 |14    |OUT   |TX   |UART TX output.                                                                                    |
