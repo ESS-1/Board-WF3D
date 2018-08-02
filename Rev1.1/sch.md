@@ -15,7 +15,7 @@
 |13    |IN/OUT|BOOT |If driven low at startup, the module is switched to the programming mode. If configured in software, driving this pin low for 10 seconds when the module is running causes settings reset. When configured as output, logic 0 voltage is Vcco/2; output resistance >2 kOhm.|
 |14    |OUT   |TX   |UART TX output.                                                                                    |
 
-## Display connection
+## Display Interface
 The current version of firmware supports an SSD1306-based 128x64 OLED in I2C configuration connected as follows:
 3.2V - J2.1
 SCL  - J2.2 (GPIO14)
