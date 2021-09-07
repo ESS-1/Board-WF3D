@@ -7,7 +7,7 @@
 |3,4,5 |PWR   |GND  |Ground.                                                                                            |
 |6     |PWR   |Vio  |UART IO voltage input; 5V nom. (4.5V to 5.5V).                                                     |
 |7     |PWR   |Vcco |3.2V output; up to 200 mA.                                                                         |
-|8     |OUT   |#SRST|Software controlled reset output; open collector; up to 15V, 15 mA nom. (Absolute maximum: 100 mA).|
+|8     |OUT   |#SRST|Software controlled reset output; open collector; up to 15V, 15 mA nom. (Absolute maximum: 25 mA). |
 |9     |IN    |#RST |Reset input; active low. If external voltage is applied, it should not exceed Vcco.                |
 |10    |IN/OUT|#SOE |Pulling down this pin through 4.7K enables UART diagnostic output during boot. During normal operation, this pin is an output; low level indicates that UART is active. Driven from Vcco.|
 |11    |-     |NC   |Do not connect this pin.                                                                           |
